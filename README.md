@@ -1,6 +1,6 @@
 # Playwright TypeScript Test Automation Framework
 
-![Playwright Tests](https://github.com/qa-areeba/Enterprise-QA-Automation-Platform/actions/workflows/playwright.yml/badge.svg)
+![Playwright Tests](https://github.com/qa-areeba/saucedemo-playwright-typescript/actions/workflows/playwright.yml/badge.svg)
 
 A scalable UI test automation framework built with [Playwright](https://playwright.dev/) and TypeScript, using the Page Object Model, custom fixtures, data-driven tests, tagged test suites and multi-browser execution. The tests target the public practice site [SauceDemo](https://www.saucedemo.com), and the suite runs in GitHub Actions on every push and pull request.
 
@@ -52,8 +52,8 @@ Login flow on SauceDemo, run on Chromium, Firefox and WebKit:
 Prerequisites: Node.js 20 or later and Git.
 
 ```bash
-git clone https://github.com/qa-areeba/Enterprise-QA-Automation-Platform.git
-cd Enterprise-QA-Automation-Platform
+git clone https://github.com/qa-areeba/saucedemo-playwright-typescript.git
+cd saucedemo-playwright-typescript
 npm ci
 npx playwright install
 ```
